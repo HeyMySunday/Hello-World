@@ -28,3 +28,11 @@
 |item|value|qty|
 |:---|----:|:-:|
 |1   |2    |4  |
+```
+retMap.put("result", Boolean.valueOf(true));
+retMap.put("roomno", roomno);
+retMap.put("cardno", strbuff.substring(35));
+retMap.put("enddate", deptime);
+retMap.put("extmsg", extmsg);
+ retMap.put("enddate", deptime);
+ retMap.put("extmsg", extmsg);
